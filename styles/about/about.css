@@ -1,0 +1,68 @@
+.about {
+    background: url("../pictures/Logodull.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.about-school-cont {
+    width: 70%;
+    margin-top: 200px;
+    background-color: #30267D;
+    padding: 50px 100px;
+}
+
+.about-school-title{
+    font-size: 150%;
+    font-weight: 100;
+    border-bottom: 1px solid white;
+}
+
+.about-school-content {
+    margin-top: 25px;
+    font-size: 100%;
+}
+
+.head-coach {
+    border-bottom: 1px solid white;
+    width: 70%;
+    background-color: #30267D;
+    padding: 50px 100px;
+    margin-top: 50px;
+}
+
+.coach-plate {
+    width: 70%;
+    background-color: #30267D;
+    padding: 50px 100px;
+    margin: 50px 0px 80px 0px;
+}
+
+.coach-name {
+    font-weight: 100;
+    font-size: 150%;
+    border-bottom: 1px solid white;
+}
+
+.coach-info {
+    margin-top: 25px;
+    font-size: 100%;
+}
+
+@media (max-width: 1000px) {
+    .head-coach, .about-school-cont, .coach-plate {
+        padding: 50px 70px;
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .head-coach, .about-school-cont, .coach-plate {
+        padding: 50px 50px;
+        width: 100%;
+    }
+}

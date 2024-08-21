@@ -1,0 +1,54 @@
+.contact {
+    background: url("../pictures/ngwrest1.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 0px;
+}
+
+.header-styler {
+    width: 70%;
+    margin-top: 200px;
+    background-color: #30267D;
+    padding: 50px 75px;
+}
+
+.contact-header {
+    background-color: #30267D;
+    color: white;
+    border-bottom: 1px solid white;
+    font-size: 150%;
+    font-weight: 100;
+}
+
+.contact-info {
+    text-align: center;
+    background-color: #30267D;
+    padding: 50px 100px;
+    width: 40%;
+    font-size: 100%;
+    font-weight: 100;
+    margin: 50px 0px;
+}
+
+@media (max-width: 1300px) {
+    .contact-info {
+        width: 60%;
+    }
+}
+
+@media (max-width: 900px) {
+    .contact-info {
+        width: 90%;
+    }
+}
+
+@media (max-width: 500px) {
+    .contact-info {
+        width: 100%;
+        padding: 50px 50px;
+    }
+}

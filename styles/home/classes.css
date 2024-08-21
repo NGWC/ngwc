@@ -1,0 +1,104 @@
+.classes-container {
+    background: url("../pictures/matnqw.png");
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    padding: 100px 0px 150px 100px;
+    color: white;
+}
+
+.styler-border {
+    border-radius: 5px;
+    background-color: #30267D;
+    padding: 10px 0px 10px 10px;
+    margin-right: -5px;
+}
+
+.classes-styler {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #30267D;
+    border: 3px solid white;
+    padding: 75px 75px 75px 55px;
+}
+
+.classes-title {
+    text-align: center;
+    font-size: 150%;
+    font-weight: 100;;
+}
+
+.classes-content {
+    margin: 30px 0px;
+    text-align: center;
+    font-size: 100%;
+    width: 60%;
+}
+
+.classes-button {
+    font-size: 16px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #30267D;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: none;
+    border-bottom: none;
+}
+
+.classes-button:hover {
+    color: #30267D;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.classes-style-bar-1 {
+    margin-top: -25px;
+    margin-bottom: 5px;
+    z-index: 2;
+    width: 100%;
+    height: 5px;
+    background-color: #7C71D4;
+}
+.classes-style-bar-2 {
+    z-index: 2;
+    width: 100%;
+    height: 10px;
+    background-color: #8D2F40;
+}
+
+@media (max-width: 1100px) {
+    .classes-container {
+        padding: 25px 25px 50px 25px;
+    }
+
+    .styler-border {
+        margin: 0px;
+        padding: 10px;
+        margin: 50px 0px;
+    }
+
+    .classes-styler {
+        padding: 50px;
+    }
+
+    .classes-content {
+        width: 85%;
+    }
+}
+
+@media (max-width: 600px) {
+    .classes-container {
+        padding: 10px 10px 25px 10px;
+    }
+
+    .classes-styler {
+        padding: 30px;
+    }
+    .classes-content {
+        width: 100%;
+    }
+}
